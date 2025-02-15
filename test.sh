@@ -8,6 +8,8 @@ echo -e "\e[35mThis is to test the fifth output\e[0m"
 #echo Installing the nginx
 #dnf install nginx -y &>> /tmp/logifile.log
 
+yum list installed |grep -i nginx
+
 echo -e Removing the nginx
 dnf remove nginx -y &>> /tmp/logifile.log
 
