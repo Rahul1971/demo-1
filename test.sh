@@ -5,8 +5,11 @@ echo -e "\e[33mThis is to test the fourth output\e[0m"  &>>/tmp/test.log
 echo -e "\e[34mThis is to test the fourth output\e[0m"
 echo -e "\e[35mThis is to test the fifth output\e[0m"
 
+#echo Installing the nginx
+#dnf install nginx -y &>> /tmp/logifile.log
 
-dnf install nginx -y &> /tmp/logifile.log
+echo -e Removing the nginx
+dnf remove nginx -y &>> /tmp/logifile.log
 
 
 
