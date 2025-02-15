@@ -6,7 +6,7 @@ echo -e "\e[34mThis is to test the fourth output\e[0m"
 echo -e "\e[35mThis is to test the fifth output\e[0m"
 
 
-dnf install nginix -y &> /tmp/logifile.log
+dnf install nginx -y &> /tmp/logifile.log
 
 
 
