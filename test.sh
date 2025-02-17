@@ -20,7 +20,7 @@ i=6
 while [ $i -eq 6 ]
 do
   echo Number is equal to 6
- # i=$((i-1))
+  i=$((i-1))
 done
 
 
