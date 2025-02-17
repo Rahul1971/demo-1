@@ -30,6 +30,12 @@ else
   echo " Number is less than 10"
 fi
 
+for i in {1..10}
+do
+   echo "Number: $i"
+done
+
+
 
 
 
