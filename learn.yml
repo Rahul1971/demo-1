@@ -10,8 +10,10 @@
 
     - name: Install nginx
       ansible.builtin.dnf:
-      - name: nginx
-        state: installed
+      name: nginx
+      state: installed
+
+    - name: Start Nginx
       ansible.built.in.systemd_service: systemctl start nginx
 
 
