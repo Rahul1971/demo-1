@@ -14,7 +14,9 @@
         state: installed
 
     - name: Start Nginx
-      ansible.built.in.systemd_service: systemctl start nginx
+      ansible.built.in.systemd_service:
+        name: nginx
+        state: started
 
 
 
