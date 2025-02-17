@@ -24,7 +24,7 @@ do
 done
 
 if [ $i -gt 11 ]
-then
+#then
 echo " Number is greater than 10"
 else
   echo " Number is less than 10"
