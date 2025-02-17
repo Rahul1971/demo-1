@@ -2,21 +2,14 @@
   hosts: all
   become: true
   tasks:
-    - name: Disable nginx
-      ansible.builtin.shell: dnf module disable nginx -y
 
-    - name: Enable nginx
-      ansible.builtin.shell: dnf module enable nginx:1.24 -y
-
-    - name: Install nginx
+    - name: Remove nginx
       ansible.builtin.dnf:
         name: nginx
-        state: installed
+        state: removed
 
-    - name: Start Nginx
-      ansible.builtin.systemd_service:
-        name: nginx
-        state: started
+
+
 
 
 
