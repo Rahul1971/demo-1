@@ -16,7 +16,7 @@ echo -e "\e[35mThis is to test the fifth output\e[0m"
 #echo "To check the status - 0 is successful and 1 is failure"
 #echo $?
 
-i=10
+i=6
 while [ $i -eq 6 ]
 do
   echo Number is equal to 6
