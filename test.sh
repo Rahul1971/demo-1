@@ -24,7 +24,7 @@ do
 done
 
 
-if [ $i -gt 10 ]
+if [ $i -ge 10 ]
 then
 echo " Number is greater than 10"
 else
