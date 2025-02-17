@@ -17,16 +17,16 @@ echo -e "\e[35mThis is to test the fifth output\e[0m"
 #echo $?
 
 i=10
-while [ $i -gt 6 ]
+while [ $i -eq 6 ]
 do
-  echo Number is $i
-  i=$((i-1))
+  echo Number is equal to 6
+ # i=$((i-1))
 done
 
 
-if [ $i -eq 10 ]
+if [ $i -gt 10 ]
 then
-echo " Number is equal than 10"
+echo " Number is greater than 10"
 else
   echo " Number is less than 10"
 fi
