@@ -17,10 +17,10 @@ echo -e "\e[35mThis is to test the fifth output\e[0m"
 #echo $?
 
 i=10
-while [ $i -gt 6]
+while [ $i -gt 6 ]
 do
   echo $i
-  i=$(i-1)
+  i=$((i-1))
 done
 
 echo $?
