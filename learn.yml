@@ -1,0 +1,16 @@
+- name: Learn ANSIBLE
+  hosts: all
+  become: true
+  tasks:
+    -name: Disable nginx
+    ansible.builtin.shell: dnf module disable nginx -y
+    -name: Enable nginx
+
+    ansible.builtin.shell: dnf module enable nginx:1.24 -y
+    -name: Install nginx
+
+    ansible.builtin.dnf: dnf install nginx -y
+    ansible.built.in.systemd_service: systemctl start nginx
+
+
+
