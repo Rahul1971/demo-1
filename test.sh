@@ -16,9 +16,10 @@ dnf remove nginx -y &>> /tmp/logifile.log
 echo "To check the status - 0 is successful and 1 is failure"
 echo $?
 
-for i in telangana, andra, goa;do
+for i in telangana, andra, goa
+do
 echo name of the state is $i
-fi
+done
 
 echo $?
 
