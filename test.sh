@@ -20,6 +20,8 @@ for i in telangana, andra, goa;do
 echo name of the state is $i
 fi
 
+echo $?
+
 
 
 
