@@ -8,17 +8,19 @@ echo -e "\e[35mThis is to test the fifth output\e[0m"
 #echo Installing the nginx
 #dnf install nginx -y &>> /tmp/logifile.log
 
-yum list installed |grep -i nginx
+#yum list installed |grep -i nginx
 
 #echo -e Removing the nginx
-dnf remove nginx -y &>> /tmp/logifile.log
+#dnf remove nginx -y &>> /tmp/logifile.log
 
-echo "To check the status - 0 is successful and 1 is failure"
-echo $?
+#echo "To check the status - 0 is successful and 1 is failure"
+#echo $?
 
-for i in telangana, andra, goa
+i=10
+while ($i -gt 6)
 do
-echo name of the state is $i
+  echo $i
+  i=$(i-1)
 done
 
 echo $?
