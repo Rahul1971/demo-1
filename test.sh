@@ -19,7 +19,7 @@ echo -e "\e[35mThis is to test the fifth output\e[0m"
 i=10
 while [ $i -gt 6 ]
 do
-  echo $i
+  echo Number is $i
   i=$((i-1))
 done
 
