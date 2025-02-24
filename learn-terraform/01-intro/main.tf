@@ -44,4 +44,8 @@ output "name" {
   value = var.name
 }
 
+variable "school" {}
+output "school" {
+  value = var.school
+}
 
