@@ -14,7 +14,7 @@ resource "local_file" "test" {
 }
 
 variable "y"{
-default=[1,"king",false]
+default = [1,"king",false]
 }
 
 output "y0" {
@@ -24,7 +24,7 @@ output "y1" {
   value = var.y[1]
 }
 output "y2" {
-value= var.y[2]
+value = var.y[2]
 }
 
 
