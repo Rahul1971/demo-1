@@ -28,8 +28,8 @@ value = var.y[2]
 }
 
 
-variable "f1" {
-  output "f1" {
-    value = ${var.f1}
+variable "class" {}
+  output "class" {
+    value = ${var.class}
   }
 }
