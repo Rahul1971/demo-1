@@ -26,3 +26,10 @@ output "y1" {
 output "y2" {
 value= var.y[2]
 }
+
+
+variable "fetch" {
+  output "fetch" {
+    value = ${var.fetch}
+  }
+}
