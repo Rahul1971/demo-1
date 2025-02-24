@@ -35,5 +35,5 @@ output "class" {
 
 variable "stand" { }
   output "stand" {
-    value = value.stand
+    value = var.stand
 }
