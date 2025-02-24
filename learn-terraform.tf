@@ -10,7 +10,7 @@ output "x2" {
 
 resource "local_file" "test" {
   content = "This is to test the file"
-  filename = "/tmp/testt"
+  filename = /tmp/testt
 }
 
 variable "y5"{
@@ -24,7 +24,7 @@ output "y6" {
   value = var.y5[1]
 }
 output "y7" {
-value = var.y5[2]
+  value = var.y5[2]
 }
 
 
