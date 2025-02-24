@@ -1,11 +1,11 @@
-provider = local
+#provider "local" {}
 
-variable "x"{
-  default=10
+variable "x" {
+  default = 10
 }
 
-output "x"{
-  value= var.x
+output "x1" {
+  value = var.x
 }
 
 resource "local_file" "test" {
@@ -17,8 +17,12 @@ variable "y"{
 default=[1,"king",false]
 }
 
-output "y"{
-value= var.y[0]
-value= var.y[1]
+output "y0" {
+  value = var.y[0]
+}
+output "y1" {
+  value = var.y[1]
+}
+output "y2" {
 value= var.y[2]
 }
