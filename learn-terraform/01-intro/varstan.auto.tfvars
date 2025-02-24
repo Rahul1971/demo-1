@@ -1,1 +1,3 @@
-stand = "10th standard"
+provider "aws" {
+  region = "us-east-1"
+}
