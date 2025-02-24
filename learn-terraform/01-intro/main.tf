@@ -1,11 +1,11 @@
 #provider "local" {}
 
-variable "x1" {
+variable "x" {
   default = 10
 }
 
-output "x2" {
-  value = var.x1
+output "x" {
+  value = var.x
 }
 
 resource "local_file" "test3" {
