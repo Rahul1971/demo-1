@@ -8,10 +8,10 @@ output "x2" {
   value = var.x1
 }
 
-resource "local_file" "test1" {
-  content = "This is to test the files in the dir"
-  filename = "/tmp/testtt"
-}
+#resource "local_file" "test3" {
+#  content = "This is to test the files in the dir"
+#  filename = "/tmp/testtt"
+#}
 
 variable "y9" {
 default = [1,"king",false]
