@@ -1,4 +1,4 @@
-#provider "local" {}
+provider "local" {}
 
 variable "x1" {
   default = 10
@@ -13,8 +13,8 @@ resource "local_file" "test1" {
   filename = "/tmp/testtt"
 }
 
-variable "y9
-default = [1,"king",false]
+variable "y9" {
+default=[1,"king",false]
 }
 
 output "y5" {
