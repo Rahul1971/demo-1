@@ -32,3 +32,8 @@ variable "class" {}
 output "class" {
   value = var.class
 }
+
+variable "stand" { }
+  output "stand" {
+    value = value.stand
+}

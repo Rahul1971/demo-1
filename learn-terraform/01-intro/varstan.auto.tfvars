@@ -1,0 +1,1 @@
+stand = "10th standard"
