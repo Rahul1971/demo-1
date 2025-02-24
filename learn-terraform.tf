@@ -9,8 +9,8 @@ output "x1" {
 }
 
 resource "local_file" "test" {
-  content="This is to test the file"
-  filename="/tmp/testttttttout"
+  content = "This is to test the file"
+  filename = "/tmp/testttttttout"
 }
 
 variable "y"{
@@ -30,6 +30,5 @@ value = var.y[2]
 
 variable "class" {}
   output "class" {
-    value = ${var.class}
+    value = var.class
   }
-}
