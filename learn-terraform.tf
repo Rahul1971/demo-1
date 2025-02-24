@@ -28,8 +28,8 @@ value= var.y[2]
 }
 
 
-variable "fetch" {
-  output "fetch" {
-    value = ${var.fetch}
+variable "f1" {
+  output "f1" {
+    value = ${var.f1}
   }
 }

@@ -37,7 +37,13 @@ do
    echo "Number: $i"
 done
 
-
+ansible.builtin.copy
+ansible.builtin.unarchive
+ansible.builtin.shell
+ansible.builtin.debug
+ansible.builtin.user
+ansible.builtin.file
+ansible.nuiltin.dnf
 
 
 
