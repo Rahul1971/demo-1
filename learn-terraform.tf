@@ -5,12 +5,12 @@ variable "x1" {
 }
 
 output "x2" {
-  value = var.x
+  value = var.x1
 }
 
-resource "local_file" "test" {
-  content = "This is to test the file"
-  filename = /tmp/testt
+resource "local_file" "test1" {
+  content = "This is to test the files in the dir"
+  filename = "/tmp/testtt"
 }
 
 variable "y5"{
