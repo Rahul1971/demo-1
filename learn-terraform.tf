@@ -13,18 +13,18 @@ resource "local_file" "test1" {
   filename = "/tmp/testtt"
 }
 
-variable "y5"{
+variable "y9
 default = [1,"king",false]
 }
 
 output "y5" {
-  value = var.y5[0]
+  value = var.y9[0]
 }
 output "y6" {
-  value = var.y5[1]
+  value = var.y9[1]
 }
 output "y7" {
-  value = var.y5[2]
+  value = var.y9[2]
 }
 
 
