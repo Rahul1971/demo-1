@@ -14,7 +14,7 @@ resource "local_file" "test1" {
 }
 
 variable "y9" {
-default=[1,"king",false]
+default = [1,"king",false]
 }
 
 output "y5" {
