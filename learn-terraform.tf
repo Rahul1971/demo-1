@@ -1,10 +1,10 @@
 #provider "local" {}
 
-variable "x" {
+variable "x1" {
   default = 10
 }
 
-output "x1" {
+output "x2" {
   value = var.x
 }
 
@@ -13,18 +13,18 @@ resource "local_file" "test" {
   filename = "/tmp/testt"
 }
 
-variable "y"{
+variable "y5"{
 default = [1,"king",false]
 }
 
-output "y0" {
-  value = var.y[0]
+output "y5" {
+  value = var.y5[0]
 }
-output "y1" {
-  value = var.y[1]
+output "y6" {
+  value = var.y5[1]
 }
-output "y2" {
-value = var.y[2]
+output "y7" {
+value = var.y5[2]
 }
 
 
