@@ -37,3 +37,11 @@ variable "stand" { }
   output "stand" {
     value = var.stand
 }
+
+
+variable "name" {}
+output "name" {
+  value = var.name
+}
+
+
